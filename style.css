@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Div do subtitulo da Página */
+div {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+#subtitulo{
+    color:palevioletred;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    font-family: "Montez", cursive;
+    font-weight: 500;
+    font-size: 37px;
+}
+
+#titulo{
+    color:#62cbcd;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Montez", cursive;
+    font-weight: 400;
+    font-size:70px;
+}
+
+/* Imagens dos Mapas Mentais */
+#Mapa_Mental{
+    width: 60%;
+    margin-bottom: 30px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/* Inicio Detalhes nas Margens da Página */
+#Detalhe_Um{
+    width: 17%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#Detalhe_Dois{
+    width: 17%;
+    position: absolute;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 3%;
+    display: block;
+}
+
+#Detalhe_Tres{
+    width: 17%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    display: block;
+}
+
+#Detalhe_Quatro{
+    width: 17%;
+    position: absolute;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 22%;
+    display: block;
+}
+
+#Detalhe_Cinco{
+    width: 17%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    display: block;
+}
+
+#Detalhe_Seis{
+    width: 17%;
+    position: absolute;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 55%;
+    display: block;
+} /* Fim Detalhes nas Margens da Página */
+
+/* Inicio Card de Informação */
+.tooltip {
+    position: fixed;  
+    top: 70px;        
+    right: 20px;      
+    display: inline-block;
+    z-index: 999;     
+    border-radius: 50%;
+}
+
+.lamp-icon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+    top: 55px;  
+    left: 100%;
+    transform: translateX(-100%);
+    z-index: 1000;
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: palevioletred;
+}
+
+.card p {
+    margin: 10px 0 0;
+    font-size: 15.3px;
+    color: #666;
+}
+
+#Creditos{
+    font-size: 14.3px;
+} /* Fim Card de Informação */
+
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:palevioletred;
+    text-align: center;
+    color:white;
+    padding: 6px;
+}
